@@ -1,5 +1,51 @@
+html {
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    font-style: normal;
+    text-align: center;
+}
 body {
-  border: 10px;
-  height: 100vh;
-  width: 100%;
+
+  width: 375px;
+  height: 812px;
+
+}
+.container {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 6px;
+    background-image: url(Img/header-illsutration-mobile@2x.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.headline {
+    width: 372px;
+    height: 192px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    color: #172b4d;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.content {
+    /*display: flex;*/
+    width: 372px;
+    height: 192px;
+    top: 64px;
+    left: 24px;
+}
+.header {
+    display: flex;
+    border: 2px solid magenta;
 }
