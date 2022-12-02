@@ -10,7 +10,7 @@ body {
   width: 375px;
 }
 
-h2 {
+h2, h1 {
   font-size: 3.4em;
   font-weight: 700;
   line-height: 1.3em;
@@ -18,7 +18,7 @@ h2 {
   text-align: center;
 }
 
-h3 {
+header a {
   width: 90px;
   height: 28px;
   font-style: normal;
@@ -38,6 +38,14 @@ p {
   line-height: 28px;
   text-align: center;
   width: 18em;
+}
+li {
+    list-style: none;
+
+}
+ul {
+    display: flex;
+    padding: 0px;;
 }
 
 /* Classes */
@@ -83,8 +91,6 @@ p {
   padding: 64px 24px;
   gap: 58px;
   position: absolute;
-  width: 375px;
-  height: 726px;
   left: 0;
   top: 92px;
   background-image: url(images/header-illsutration-mobile@2x.png);
@@ -108,11 +114,11 @@ p {
 }
 
 .top_color {
-  color: black;
+  color: #172B4D;
 }
 
 .bottom_color {
-  color: rgba(18, 136, 7, 0.938);
+  color: #36B37E;
 }
 
 .supportive_txt {
@@ -134,6 +140,7 @@ p {
 }
 
 .social-icon {
+    flex-direction: column;
   fill: #505f79;
   padding-left: 1.6em;
   width: 2em;
