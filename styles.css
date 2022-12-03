@@ -288,9 +288,9 @@ ul {
 }
 
 .recent_works {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 379px;
+  grid-template-rows: 97px 4px repeat(6, 474px);
   padding: 64px 24px;
   gap: 58px;
   position: absolute;
@@ -298,9 +298,31 @@ ul {
   height: 3283px;
   left: 0;
   top: 708px;
+  justify-content: end;
+}
+
+.primary_txt_R {
+  grid-row: 1;
+  /* width: 327px;
+  height: 97px;
+  */
+
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .indicator {
+  grid-row: 2;
   width: 48px;
   height: 4px;
   background: #36b37e;
@@ -325,6 +347,7 @@ ul {
 }
 
 .card {
+  grid-row: 3;
   width: 327px;
   height: 474px;
   flex: none;
@@ -531,6 +554,9 @@ ul {
   height: 1625px;
   left: 0;
   top: 3927px;
+  background-image: url(images/illustration-\ about\ me-\ mobile.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .text2 {
@@ -594,6 +620,10 @@ ul {
   flex: none;
   order: 2;
   flex-grow: 0;
+}
+
+.button :hover {
+  color: rgb(6, 230, 92);
 }
 
 .btx {
