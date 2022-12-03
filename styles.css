@@ -303,10 +303,9 @@ ul {
 
 .primary_txt_R {
   grid-row: 1;
-  /* width: 327px;
-  height: 97px;
-  */
 
+  /* width: 327px;
+  height: 97px; */
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
