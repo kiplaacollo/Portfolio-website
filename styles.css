@@ -161,6 +161,9 @@ ul {
   flex: none;
   order: 0;
   flex-grow: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .top_color {
@@ -185,6 +188,8 @@ ul {
   flex: none;
   order: 1;
   flex-grow: 0;
+  align-items: center;
+  justify-content: center;
 }
 
 .social_icon_container {
@@ -193,6 +198,9 @@ ul {
   flex: none;
   order: 2;
   flex-grow: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .social_icon_container ul {
@@ -272,6 +280,9 @@ ul {
   flex: none;
   order: 3;
   flex-grow: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .normal_button {
@@ -621,8 +632,9 @@ ul {
   flex-grow: 0;
 }
 
-.button :hover {
-  color: rgb(6, 230, 92);
+button:hover {
+  background-color: hsl(135, 95%, 46%);
+  color: white;
 }
 
 .btx {
