@@ -1400,18 +1400,20 @@ button:hover {
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
-  /*line-height: 52px;*/
+
+  /* line-height: 52px; */
   text-align: center;
   color: #172b4d;
   flex: none;
   order: 0;
   flex-grow: 0;
 }
+
 .form_f {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 24px;
   width: 327px;
   height: 330px;
@@ -1419,19 +1421,51 @@ button:hover {
   order: 1;
   flex-grow: 0;
 }
+
 .fname {
   width: 327px;
   height: 42px;
   flex: none;
   flex-grow: 0;
 }
-.lname {
+
+.container_f {
+  height: 48px;
+
+  /*  position: absolute;
+ left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px; */
+  background: #fff;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+}
+
+.email {
   width: 327px;
   height: 48px;
   flex: none;
   order: 1;
   flex-grow: 0;
 }
+
+::placeholder {
+  position: absolute;
+  height: 18px;
+  left: 16px;
+  right: 16px;
+  top: calc(50% - 18px / 2);
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #6b778c;
+}
+
 .txt_area {
   width: 327px;
   height: 114px;
@@ -1439,13 +1473,15 @@ button:hover {
   order: 2;
   flex-grow: 0;
 }
+
 .txt_area img {
   position: absolute;
   width: 24px;
   height: 24px;
-  right: 0px;
-  bottom: 0px;
+  right: 0;
+  bottom: 0;
 }
+
 .txt_area p {
   position: absolute;
   left: 12px;
