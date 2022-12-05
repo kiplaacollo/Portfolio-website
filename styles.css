@@ -1400,10 +1400,62 @@ button:hover {
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
-  line-height: 52px;
+  /*line-height: 52px;*/
   text-align: center;
   color: #172b4d;
   flex: none;
   order: 0;
   flex-grow: 0;
+}
+.form_f {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  width: 327px;
+  height: 330px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.fname {
+  width: 327px;
+  height: 42px;
+  flex: none;
+  flex-grow: 0;
+}
+.lname {
+  width: 327px;
+  height: 48px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.txt_area {
+  width: 327px;
+  height: 114px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.txt_area img {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  right: 0px;
+  bottom: 0px;
+}
+.txt_area p {
+  position: absolute;
+  left: 12px;
+  right: 12px;
+  top: 12px;
+  bottom: 12px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #091e42;
 }
