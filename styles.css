@@ -1343,12 +1343,7 @@ textarea {
   flex-grow: 0;
 }
 
-input ::placeholder {
-  position: absolute;
-  height: 18px;
-  left: 16px;
-  right: 16px;
-  top: calc(50% - 18px / 2);
+input::placeholder {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -1357,11 +1352,16 @@ input ::placeholder {
   display: flex;
   align-items: center;
   color: #6b778c;
-  padding-top: 0;
+  padding-left: 10px;
 }
 
-textarea > ::placeholder {
-  padding-top: 0;
+textarea::placeholder {
+  padding-left: 10px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
 }
 
 .txt_area {
