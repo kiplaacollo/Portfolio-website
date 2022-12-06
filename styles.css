@@ -9,61 +9,6 @@ body {
   width: 375px;
 }
 
-/*
-h2,
-h1 {
-  font-size: 3.4em;
-  font-weight: 700;
-  line-height: 1.3em;
-  margin: 0.2em;
-  text-align: center;
-}
-h4 {
-  width: 295px;
-  height: 57px;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 32px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #3a4a42;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-header a {
-  width: 90px;
-  height: 28px;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 28px;
-  text-align: center;
-  color: #28352f;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
-p {
- font-size: 1.7em;
-  font-weight: 400;
-  line-height: 28px;
-  text-align: center;
-
-}
-
-li {
-  list-style: none;
-}
-
-ul {
-  display: flex;
-  padding: 0;
-}
-*/
 header a {
   width: 90px;
   height: 28px;
@@ -151,7 +96,7 @@ ul {
 .primary_txt {
   width: 327px;
   height: 192px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -178,7 +123,7 @@ ul {
   display: flex;
   width: 327px;
   height: 164px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400px;
   font-size: 20px;
@@ -255,25 +200,6 @@ ul {
   background: #fff;
 }
 
-/* .social-icon {
-  flex-direction: column;
-  fill: #505f79;
-  padding-left: 1.6em;
-  width: 2em;
-}
-.scroll {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 8px;
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    left: calc(50% - 40px/2 + 0.5px);
-    bottom: 4px;
-    border: 1px solid #dfe1e6;
-    border-radius: 32px;
-} */
 .action {
   width: 327px;
   height: 48px;
@@ -314,10 +240,7 @@ ul {
 
 .primary_txt_R {
   grid-row: 1;
-
-  /* width: 327px;
-  height: 97px; */
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -372,9 +295,6 @@ ul {
   padding: 16px;
   gap: 16px;
   position: absolute;
-
-  /* width: 327px;
-  height: 222px; */
   left: calc (50% - 327px / 2);
   bottom: 0;
   background: #fff;
@@ -384,7 +304,7 @@ ul {
 .project_title {
   width: 295px;
   height: 57px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -404,31 +324,16 @@ ul {
   align-items: center;
   padding: 0;
   gap: 8px;
-
-  /* width: 305px; */
   height: 32px;
   flex: none;
   order: 1;
   flex-grow: 0;
 }
 
-/* tag {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 8px 12px;
-  width: 103px;
-  height: 32px;
-  background: #EBF0EE;
-  border-radius: 4PX;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-} */
 .tag1 {
   width: 79px;
   height: 16px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -443,7 +348,7 @@ ul {
 .tag2 {
   width: 21px;
   height: 16px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -458,7 +363,7 @@ ul {
 .tag3 {
   width: 58px;
   height: 16px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -473,7 +378,7 @@ ul {
 .tag4 {
   width: 27px;
   height: 16px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -499,7 +404,6 @@ ul {
 }
 
 .action1 {
-  /* width: 305px; */
   height: 69px;
   flex: none;
   order: 2;
@@ -525,7 +429,7 @@ ul {
 .btx1 {
   width: 98px;
   height: 24px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -543,11 +447,6 @@ ul {
 .image_placeholder_card {
   width: 327px;
   height: 474px;
-
-  /* left: 0px;
-  right: 0px;
-  top: 0px;
-  bottom: 0px; */
   background: #ebf0ee;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
@@ -586,7 +485,7 @@ ul {
 .primary_txt_2 {
   width: 351px;
   height: 48px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -605,7 +504,7 @@ ul {
   display: flex;
   width: 351px;
   height: 189px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -641,7 +540,7 @@ button:hover {
 .btx {
   width: 135px;
   height: 24px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -701,7 +600,7 @@ button:hover {
 .txt1 {
   width: 337px;
   height: 32px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -744,7 +643,7 @@ button:hover {
 .txt5 {
   width: 65px;
   height: 16px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -773,7 +672,7 @@ button:hover {
 .txt2 {
   width: 31px;
   height: 16px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -802,7 +701,7 @@ button:hover {
 .txt3 {
   width: 29px;
   height: 16px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -831,7 +730,7 @@ button:hover {
 .txt4 {
   width: 26px;
   height: 16px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -913,7 +812,7 @@ button:hover {
 .txt30 {
   width: 337px;
   height: 32px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -968,7 +867,7 @@ button:hover {
 .txt31 {
   width: 60px;
   height: 16px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -997,7 +896,7 @@ button:hover {
 .txt32 {
   width: 79px;
   height: 16px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -1026,7 +925,7 @@ button:hover {
 .txt33 {
   width: 39px;
   height: 16px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -1055,7 +954,7 @@ button:hover {
 .txt34 {
   width: 59px;
   height: 16px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -1084,7 +983,7 @@ button:hover {
 .txt35 {
   width: 57px;
   height: 16px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -1153,7 +1052,7 @@ button:hover {
 .txt1_C {
   width: 337px;
   height: 32px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -1208,7 +1107,7 @@ button:hover {
 .txt41 {
   width: 48px;
   height: 16px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -1237,7 +1136,7 @@ button:hover {
 .txt42 {
   width: 43px;
   height: 16px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -1266,7 +1165,7 @@ button:hover {
 .txt43 {
   width: 55px;
   height: 16px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -1295,7 +1194,7 @@ button:hover {
 .txt44 {
   width: 53px;
   height: 16px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -1324,7 +1223,7 @@ button:hover {
 .txt45 {
   width: 53px;
   height: 16px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -1397,12 +1296,10 @@ button:hover {
 .primary_txt_F {
   width: 327px;
   height: 363px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
-
-  /* line-height: 52px; */
   text-align: center;
   color: #172b4d;
   flex: none;
@@ -1433,12 +1330,6 @@ button:hover {
 .input,
 textarea {
   height: 48px;
-
-  /*  position: absolute;
- left: 0px;
-  right: 0px;
-  top: 0px;
-  bottom: 0px; */
   background: #fff;
   border: 1px solid #d0d9d4;
   border-radius: 4px;
@@ -1452,13 +1343,8 @@ textarea {
   flex-grow: 0;
 }
 
-input ::placeholder {
-  position: absolute;
-  height: 18px;
-  left: 16px;
-  right: 16px;
-  top: calc(50% - 18px / 2);
-  font-family: 'Inter', sans-serif;
+input::placeholder {
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -1466,11 +1352,16 @@ input ::placeholder {
   display: flex;
   align-items: center;
   color: #6b778c;
-  padding-top: 0;
+  padding-left: 10px;
 }
 
-textarea > ::placeholder {
-  padding-top: 0;
+textarea::placeholder {
+  padding-left: 10px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
 }
 
 .txt_area {
@@ -1495,7 +1386,7 @@ textarea > ::placeholder {
   right: 12px;
   top: 12px;
   bottom: 12px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -1507,4 +1398,11 @@ form {
   display: flex;
   align-items: center;
   flex-direction: column;
+  gap: 24px;
+}
+
+#fullname {
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
