@@ -1429,7 +1429,7 @@ button:hover {
   flex-grow: 0;
 }
 
-.container_f {
+.input, textarea {
   height: 48px;
 
   /*  position: absolute;
