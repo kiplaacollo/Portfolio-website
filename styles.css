@@ -1,16 +1,16 @@
 html {
   position: relative;
-  width: 375px;
+  width: 100%;
   height: 6715px;
   background: #fff;
 }
 
 body {
-  width: 375px;
+  width: 100%;
 }
 
 header a {
-  width: 90px;
+  width: 100%;
   height: 28px;
   font-style: normal;
   font-weight: 600;
@@ -33,6 +33,9 @@ ul {
 }
 
 /* Classes */
+.top_nav {
+  display: none;
+}
 
 .head {
   width: 375px;
@@ -1433,3 +1436,48 @@ form {
 #button:active {
   background-color: rgb(123, 180, 17);
 }
+
+@media screen and (min-width: 768px) {
+  body {
+    width: 100%;
+    height: 3846px;
+    background: #fff;
+  }
+
+  .top_nav {
+    display: flex;
+    justify-content: center;
+    height: 72px;
+  }
+
+  #top_nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 8px;
+    width: 255px;
+    height: 40px;
+    left: 591px;
+    top: 16px;
+  }
+
+  .head {
+    display: none;
+  }
+
+  #top_nav li {
+    padding: 10px 12px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+  }
+
+  #top_nav a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
