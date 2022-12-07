@@ -1406,3 +1406,30 @@ form {
   border-radius: 4px;
   box-sizing: border-box;
 }
+
+#button {
+  display: flex;
+  order: 3;
+  padding: 12px;
+  background: #36b37f;
+  border-radius: 4px;
+  color: #fff;
+  gap: 10px;
+  border-style: none;
+  height: 48px;
+  width: 129px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+#button:hover {
+  border: rgb(0, 132, 255);
+  background: rgb(0, 128, 128);
+}
+
+#button:active {
+  background-color: rgb(123, 180, 17);
+}
