@@ -1374,16 +1374,14 @@ footer {
     flex-grow: 0;
     animation: slideIn 5s 3;
   }
+
   @keyframes slideIn {
     from {
       transform: scale(1);
-      
     }
     to {
       transform: scale(2);
-     
     }
-    
   }
 
 
@@ -1407,6 +1405,17 @@ footer {
     }   
   }
 
+  @keyframes changeColor {
+    from {
+      color: #344563;
+    }
+    50% {
+      color: #70c4de;
+    } 
+    to {
+      color: #172bc0;
+    }   
+  }
 
   #top_nav {
     display: flex;
@@ -1436,6 +1445,10 @@ footer {
   #top_nav a {
     text-decoration: none;
     color: inherit;
+  }
+
+  #top_nav a:hover {
+    animation: changeColor 1s infinite;
   }
 
   .content {
