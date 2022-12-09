@@ -1340,6 +1340,7 @@ footer {
     box-sizing: border-box;
   }
 
+
   h2 {
     width: 447px;
     height: 48px;
@@ -1371,7 +1372,20 @@ footer {
     flex: none;
     order: 1;
     flex-grow: 0;
+    animation: slideIn 5s 3;
   }
+  @keyframes slideIn {
+    from {
+      transform: scale(1);
+      
+    }
+    to {
+      transform: scale(2);
+     
+    }
+    
+  }
+
 
   .top_nav {
     display: flex;
@@ -1893,6 +1907,7 @@ footer {
     top: 73.83%;
     bottom: 23.42%;
     background: #fff;
+
   }
 
   .cont_ill1 {
@@ -1936,5 +1951,11 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: height 4s, background-color 4s, transform 4s;
+  }
+  footer:hover {
+    background-color: #ffcccc;
+    height: 150px;
+    rotate: 360deg;
   }
 }
