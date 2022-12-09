@@ -1408,12 +1408,15 @@ footer {
   @keyframes changeColor {
     from {
       color: #344563;
+      border-bottom: 0px solid;
     }
     50% {
       color: #70c4de;
+      border-bottom: 1px solid;
     } 
     to {
       color: #172bc0;
+      border-bottom: 2px solid;
     }   
   }
 
@@ -1445,6 +1448,7 @@ footer {
   #top_nav a {
     text-decoration: none;
     color: inherit;
+    border-bottom: 0px solid;
   }
 
   #top_nav a:hover {
