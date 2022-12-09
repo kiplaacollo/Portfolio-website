@@ -1393,7 +1393,20 @@ footer {
     width: 1440px;
     height: 72px;
     top: 0;
+    animation: fadeInOut 3s 2;
   }
+  @keyframes fadInOut {
+    from {
+
+    }
+    50% {
+
+    } 
+    to {
+      
+    }   
+  }
+
 
   #top_nav {
     display: flex;
