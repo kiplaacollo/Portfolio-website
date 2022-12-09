@@ -28,7 +28,7 @@
 
 # 📖 [Kiplaacollo Portfolio website] <a name="about-project"></a>
 
-> This is one way to express myself to the world about what I am capable of doing. In this project I will use to showcase my different projects and about me.
+> This is one way to express myself to the world about what I am capable of doing. In this project I will use to showcase my different projects and about me. I have also added contact form for people to reach to me.
 
 ## 🛠 Built With <a name="built-with"></a>
 This project built with Html, CSS and Javascript
@@ -48,6 +48,7 @@ This project built with Html, CSS and Javascript
 ### Key Features <a name="key-features"></a>
 
 - **[Mobile version first]**
+- **[Desktop version using Media query]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,6 +115,8 @@ Please let me know how you feel about this project
 
 
 I really appreciate Microverse for introducing me to the future because I believe developers are for the future
+I would also like my fellow students at microverse who has helped me alot in building this portfolio
+I would like to thank all the reviewers for their complements on my project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
